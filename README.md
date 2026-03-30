@@ -29,7 +29,7 @@ Next, click the **scrape** button to load all material pages. When it finishes (
 ## Bookmarklet
 Create a bookmark and paste this into the URL/address field:
 ```js
-javascript: fetch("https://raw.githubusercontent.com/mrhotmadm/schoology-export/refs/heads/main/src/dist/master.js").then(t=>t.text()).then(eval);
+javascript: fetch("https://raw.githubusercontent.com/dawoodhq/schoology-export/refs/heads/main/src/dist/master.js").then(t=>t.text()).then(eval);
 ```
 Use this bookmark on any Schoology course page to activate the tool with one click.
 
