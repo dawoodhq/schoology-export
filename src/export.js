@@ -40,7 +40,7 @@ export default async ({ name, materialData }) => {
                 
                 console.log(`[schoology-export] Adding embedded page: ${name} (${href}) in directory: ${directory}`);
             } else if (type === 'page') {
-                if (!content) continue;
+                if (!material.content) continue; // Changed from GitHub website, not IDE!
                 if (images.length > 0) {
                     const normalizerRegex = /[^a-zA-Z0-9]/g;
                     const schoologyRegex = /^https:\/\/(?:[a-zA-Z0-9-]+\.)?schoology\.com/; 
