@@ -9,7 +9,7 @@
 - Simple, intuitive interface
 - Fast and efficient downloads
 
-Whether you’re wrapping up a semester or want a backup, `schoology-export` makes it quick and easy (which is why I created it).
+Whether you’re wrapping up a semester or want a backup, `schoology-export` makes it quick and easy.
 
 * [How to Use](#how-to-use)
 * [Setup & Running the Script](#setup--running-the-script)
